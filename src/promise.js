@@ -10,7 +10,7 @@ class APromise {
       // promiseは最初は値を持たない
       value: null,
       // 初期値はpending
-      state: 'pending',
+      state: state.PENDING,
       // 依存関係も最初はない
       dependencies: [],
     }
