@@ -1,4 +1,4 @@
-const APromise = require('./apromise')
+const APromise = require('./a-promise')
 const log = require('./logger')
 
 // 結論として実行したいこと
